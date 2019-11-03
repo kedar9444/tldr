@@ -34,3 +34,13 @@
 - Check the version of your current Angular installation:
 
 `ng version`
+
+- Generates angular application if user created new angular application with --create-application=false. This command with generate new application inside project directory. In short this command create a new application in an existing workspace:
+
+`ng generate application {{project_name}}`
+
+- Used to generate new library:
+
+`ng generate library {{library_name}}`
+
+
